@@ -1,5 +1,4 @@
 import json
-
 import requests
 import csv
 from datetime import datetime, timedelta
@@ -60,7 +59,7 @@ def fetch_data(start_year, end_year, results_queue):
                                           abstract_response['full-text-retrieval-response']['coredata'].get(
                                               'dcterms:subject', [])])
                     try:
-                        authors = ', '.join([author.get('$', '') for author in
+                        authors = '# '.join([author.get('$', '') for author in
                                              abstract_response['full-text-retrieval-response']['coredata'].get(
                                                  'dc:creator', [])])
                     except Exception as e:
