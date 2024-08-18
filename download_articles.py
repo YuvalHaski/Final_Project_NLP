@@ -121,7 +121,7 @@ def main():
         writer.writeheader()
         writer.writerows(unique_results)
 
-    print(f"Saved {len(unique_results)} unique results in 'nlp_papers.csv'")
+    print(f"Saved {len(unique_results)} unique results in 'nlp_papers.csv' ")
 
 
 if __name__ == "__main__":
