@@ -3,7 +3,7 @@
 Overview  
 This project involves conducting a comprehensive literature review on Natural Language Processing (NLP) using data retrieved from the SCOPUS academic database. The objective is to analyze and summarize trends in NLP-related research over the past decade.
 
-Tasks  
+Tasks
 1.	Data Retrieval:  
   •	Develop a Python program to interface with the SCOPUS API.  
   •	Retrieve academic papers that mention "NLP" in the title, keywords, or abstract from the last 10 years.  
@@ -40,7 +40,7 @@ Requirements
 •	Access to the SCOPUS API  
 •	Libraries: requests, json, csv, nltk, gensim, tensorflow/keras, matplotlib, wordcloud  
 
-Usage  
+Usage
 1.	Clone the repository.  
 2.	Install the required libraries  
 3.	Run the main script to retrieve data and perform analyses.  
