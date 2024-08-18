@@ -5,7 +5,7 @@ This project involves conducting a comprehensive literature review on Natural La
 
 Tasks
 1.	Data Retrieval:
-  •	Develop a Python program to interface with the SCOPUS API.
+  •	Develop a Python program to interface with the SCOPUS API.  
   •	Retrieve academic papers that mention "NLP" in the title, keywords, or abstract from the last 10 years.
   •	Extract metadata including the title, authors, journal, keywords, publication year, and abstract.
 2.	Preprocessing:
